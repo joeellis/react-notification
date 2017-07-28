@@ -16,6 +16,9 @@
   "pre-commit": [
     "precommit"
   ],
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https+git://github.com/pburtchaell/react-notification"
