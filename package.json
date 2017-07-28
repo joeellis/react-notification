@@ -6,7 +6,7 @@
   "scripts": {
     "prepublish": "npm run build",
     "precommit": "echo 'Running pre-commit hooks...' && npm test",
-    "preinstall": "npm run build",
+    "preinstall": "npm install && npm run build",
     "build": "node_modules/.bin/babel src -d dist",
     "pretest": "npm run lint",
     "test": "./bin/test.sh",
